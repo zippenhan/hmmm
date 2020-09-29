@@ -1,0 +1,118 @@
+.header {
+    height: 82px;
+    border-bottom: 2px solid #c61a29;
+}
+.header img {
+    margin-top: 20px;
+}
+.registerarea {
+    height: 480px;
+    margin-top: 24px;
+    border: 1px solid #dfdfdf;
+}
+.registerarea .title {
+    height: 43px;
+    line-height: 43px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dfdfdf;
+}
+.registerarea .title h4 {
+    float: left;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+
+}
+.registerarea .title p {
+    float: right;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.registerarea .title p a {
+    color: #c61a29;
+}
+.registerarea .reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+.registerarea .reg_form li {
+    line-height: 56px;
+}
+.registerarea .reg_form li label {
+    display: inline-block;
+    width: 85px;
+    text-align: right;
+}
+.registerarea .reg_form li em {
+    padding: 0 12px;
+    color: #fff;
+}
+.registerarea .reg_form .safe {
+    padding-left: 157px;
+    line-height: 20px;
+}
+.registerarea .reg_form li .ruo{
+    background-color: #de1111;
+}
+.registerarea .reg_form li .zhong{
+    background-color: #40b83f;
+}
+.registerarea .reg_form li .qiang{
+    background-color: #f79100;
+}
+.registerarea .reg_form li .ipt {
+    width: 240px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.registerarea .reg_form li .error {
+    color: #df3033;
+}
+.registerarea .reg_form li .success {
+    color: green;
+}
+.registerarea .reg_form li span {
+    margin-left: 8px;
+}
+.reg_form li .error_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/error.png);
+}
+.reg_form li .success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/success.png);
+}
+.reg_form .agree {
+    padding-left: 102px;
+}
+.reg_form .agree input {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.reg_form .finish {
+    width: 200px;
+    height: 35px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 110px;
+}
+.reg_form .finish:hover {
+    cursor: pointer;
+}
+.footer {
+    background-color: #fff;
+    height: 120px;
+}
